@@ -67,6 +67,17 @@ textarea {
   resize: none;
 }
 
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  /* Ajusta los estilos para dispositivos móviles aquí */
+  body {
+    font-size: 14px;
+  }
+  
+  /* Otros estilos específicos para móviles */
+}
+
+
 /* Estilos específicos para el carrusel de proyectos */
 
 nav a:hover {
@@ -88,7 +99,7 @@ nav a:hover {
   margin: 0 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
-  border: 2px solid #000000;
+  border: 2px solid #000;
   border-radius: 10px;
 }
 
@@ -238,13 +249,3 @@ footer {
   font-family: 'Open Sans', sans-serif;
   color: rgba(255, 255, 255, 0.6);
 }
-
-
-
-
-
-
-
-
-
-  
