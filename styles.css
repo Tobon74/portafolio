@@ -1,0 +1,250 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #3b5998;
+  width: 100%;
+}
+
+header {
+  padding: 10px;
+  background-color: #2A0091;
+}
+
+nav {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 10px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+h1 {
+  color: #fff;
+}
+p {
+  color: #fff;
+}
+
+h2,
+h3 {
+  color: #333;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #e6418b;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+
+/* Estilos específicos para el carrusel de proyectos */
+
+nav a:hover {
+  color: #e6418b;
+  text-decoration: underline;
+}
+
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.productos li:hover {
+  border-color: #e6418b;
+}
+
+.productos li:active {
+  border-color: #088c19;
+}
+
+.productos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.productos li:hover h2 {
+  font-size: 33px;
+}
+
+.producto-descripcion {
+  font-size: 18px;
+}
+
+.producto-precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form p {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+/* Estilos para progreso */
+
+label {
+  padding-right: 10px;
+  color: #FFF;
+  font-size: 1rem;
+}
+
+/* Estilos específicos para el formulario de contacto */
+
+#contacto-form input[type="text"],
+#contacto-form input[type="email"],
+#contacto-form textarea {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#contacto-form button[type="submit"] {
+  width: 10%;
+}
+
+footer {
+  padding: 10px;
+}
+
+/* Estilos específicos para redes sociales */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+.social-container {
+  background: #3b5998;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+#social-test {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+}
+
+.social {
+  padding-left: 0px;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social li a {
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  list-style-type: none;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  padding: 1%;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  transition: ease .3s;
+}
+
+.social li a:hover {
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.social:hover li {
+  opacity: 0.5;
+}
+
+.social:hover li:hover {
+  opacity: 1;
+}
+
+.credits,
+.credits a {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
+
+
+
+  
